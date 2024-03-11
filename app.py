@@ -1,6 +1,10 @@
+# Documentation consulted at:
+# https://docs.python.org/3/library/os.html#files-and-directories
+# https://docs.python.org/es/3/library/shutil.html
+# 
+
 import os
 import shutil
-import time
 
 class FileOrganizer:
     def __init__(self, main_path, pdfs_path, inst_path, img_path, zip_path, excel_path, torrent_path, txt_path):
